@@ -8,13 +8,13 @@ Ce projet construit un pipeline complet : base de données relationnelle, script
 
 Structure du projet
 algo-bdd-projet/
-├── create_db.sql       # Création de la base et insertion des données
-├── requete.sql         # Requêtes SQL (SELECT, CTE, procédure stockée)
-├── .env                # Variables d'environnement (non commité)
+├── create_db.sql        # Création de la base et insertion des données
+├── requete.sql          # Requêtes SQL (SELECT, CTE, procédure stockée)
+├── .env                 # Variables d'environnement (non commité)
 ├── .gitignore
 ├── python/
-│   ├── pipeline.py     # Connexion MySQL + Pandas + API + scoring
-│   └── dashboard.py    # Dashboard Plotly/Dash interactif
+│   ├── pipeline.py      # Connexion MySQL + Pandas + API + scoring
+│   └── dashboard.py     # Dashboard Plotly/Dash interactif
 └── README.md
 
 Base de données
